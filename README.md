@@ -1,0 +1,25 @@
+# Background.ahk
+- 2000+ lines ahk script including all kinds of shortcuts. Highlights including...
+- CapsLock as a modifier:
+    - Caps + wasd/qerf: UpLeftDownRight/HomeEndPgUpPgDn
+    - Caps + 12345: music control (prev/pause/next/volumn up/down)
+- Two side button in mouse (X1 and X2):
+    - X1 as ctrl and X2 as shift
+    - X1 + Right button: Alt + tab
+    - X2 + Left/Right button: close/reopen current tab in browser
+- Alt + xxx:
+    - Alt + x: minimize current window (Alt + Shift + x to maximize, ctrl + alt + x to restore)
+    - Alt + r: resize window to proper size in some apps
+    - Alt + 1/2/3/4: first/prev/next/last tab in browser
+- Win + xxx:
+    - Win + F3~F12: input sequence (e.g. Win+F6 become 1\n2\n3\n4\n5\n6; Win+F12 allows any given number)
+    - Win + s: google search current selected words, or open url/doi/PMID/GEO/IMDB/AV/BV if detected
+        - Win + Ctrl/Shift/Alt + s: search elsewhere (google scholar etc...)
+    - Win + t: make current window always on top
+    - Win + q/w/c/f/v/z: Win + 5/6/7/8/9/0
+- ...
+- An implementation of Win11 explorer tab reopen stack: similar to how web tabs work (Alt+w to close and Alt+z to reopen, Alt+q to duplicate)
+- An implementation of Borderless window (Ctrl + F11)
+- An implementation of Playtime Tracker: write to log every 10s if a specific game is active
+- All sorts of snippets...
+- Also a modified version of X-MacroRecorder.ahk, a lightweight but featureful macro recorder
